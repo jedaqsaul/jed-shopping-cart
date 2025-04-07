@@ -44,3 +44,32 @@ header {
   width: 50px;
   height: 50px;
 }
+/* main section styles */
+main {
+  padding-top: 80px;
+}
+.products-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.demo {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+}
+.cart-section {
+  position: fixed;
+  top: 70px;
+  right: 0;
+  bottom: 0;
+  width: 400px;
+  z-index: 2;
+  background-color: rgb(171, 171, 223);
+  display: none;
+}
+.close-cart-button {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
