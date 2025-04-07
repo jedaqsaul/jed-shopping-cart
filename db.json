@@ -1,0 +1,146 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "https://picsum.photos/seed/picsum/200",
+      "title": "Laptop",
+      "category": "Electronics",
+      "price": 1200,
+      "description": "High-performance laptop with 16GB RAM."
+    },
+    {
+      "id": 2,
+      "image": "https://picsum.photos/seed/picsum/200",
+      "title": "Smartphone",
+      "category": "Electronics",
+      "price": 800,
+      "description": "Latest smartphone with OLED display."
+    },
+    {
+      "id": 3,
+      "image": "https://picsum.photos/seed/picsum/200",
+      "title": "Headphones",
+      "category": "Accessories",
+      "price": 150,
+      "description": "Noise-canceling over-ear headphones."
+    },
+    {
+      "id": 4,
+      "image": "https://picsum.photos/seed/picsum/200",
+      "title": "Gaming Console",
+      "category": "Gaming",
+      "price": 500,
+      "description": "Next-gen gaming console with 4K support."
+    },
+    {
+      "id": 5,
+      "image": "https://picsum.photos/seed/picsum/200",
+      "title": "Smartwatch",
+      "category": "Wearable",
+      "price": 300,
+      "description": "Feature-packed smartwatch with health tracking."
+    },
+    {
+      "id": 6,
+      "title": "Tablet",
+      "image": "https://picsum.photos/seed/picsum/200",
+      "category": "Electronics",
+      "price": 600,
+      "description": "10-inch tablet with stylus support."
+    },
+    {
+      "id": 7,
+      "image": "https://picsum.photos/seed/picsum/200",
+      "title": "Bluetooth Speaker",
+      "category": "Audio",
+      "price": 100,
+      "description": "Portable Bluetooth speaker with deep bass."
+    },
+    {
+      "id": 8,
+      "image": "https://picsum.photos/seed/picsum/200",
+      "title": "Camera",
+      "category": "Photography",
+      "price": 900,
+      "description": "Professional DSLR camera with 24MP sensor."
+    },
+    {
+      "id": 9,
+      "image": "https://picsum.photos/seed/picsum/200",
+      "title": "Wireless Mouse",
+      "category": "Accessories",
+      "price": 50,
+      "description": "Ergonomic wireless mouse with fast response."
+    },
+    {
+      "id": 10,
+      "image": "https://picsum.photos/seed/picsum/200",
+      "title": "Mechanical Keyboard",
+      "category": "Accessories",
+      "price": 120,
+      "description": "RGB mechanical keyboard with custom switches."
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "rating": 5,
+      "comment": "Excellent performance!",
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "rating": 4,
+      "comment": "Great camera quality.",
+      "productId": 2
+    },
+    {
+      "id": 3,
+      "rating": 5,
+      "comment": "Amazing sound isolation!",
+      "productId": 3
+    },
+    {
+      "id": 4,
+      "rating": 4,
+      "comment": "Smooth gameplay experience.",
+      "productId": 4
+    },
+    {
+      "id": 5,
+      "rating": 3,
+      "comment": "Good features, but battery life is average.",
+      "productId": 5
+    },
+    {
+      "id": 6,
+      "rating": 4,
+      "comment": "Perfect for drawing and note-taking.",
+      "productId": 6
+    },
+    {
+      "id": 7,
+      "rating": 5,
+      "comment": "Great bass and portability!",
+      "productId": 7
+    },
+    {
+      "id": 8,
+      "rating": 4,
+      "comment": "Professional-grade quality.",
+      "productId": 8
+    },
+    {
+      "id": 9,
+      "rating": 5,
+      "comment": "Very responsive and comfortable.",
+      "productId": 9
+    },
+    {
+      "id": 10,
+      "rating": 4,
+      "comment": "Perfect for gaming and typing.",
+      "productId": 10
+    }
+  ]
+}
