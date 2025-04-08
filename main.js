@@ -69,9 +69,36 @@ function toggleCart() {
 
   cartButton.addEventListener("click", () => {
     cartSection.style.display = "block";
-    fetchCartItems();
+    fetchCartItems(cartSection);
   });
   closeCartButton.addEventListener("click", () => {
     cartSection.style.display = "none";
   });
+}
+
+function fetchCartItems(cartSection) {
+  fetch(`${BASE_URL}/cart`)
+    .then((res) => res.json())
+    .then((cartItems) => {
+      cartSection.innerHTML = "";
+
+      cartItems.forEach((item) => {
+        const cartDiv = document.createElement("div");
+        cartDiv.className = "cart-item";
+        cartDiv.innerHTML = `
+         <div>
+            <img
+              src="${item.image}"
+              alt=""
+              class="cart-item-image"
+            />
+            ${item.title}
+          </div>
+
+          <div class="cart-item-category">${item.category}</div>
+          <div class="cart-item-price">$${item.price}</div>
+        `;
+        cartSection.appendChild(cartDiv);
+      });
+    });
 }
