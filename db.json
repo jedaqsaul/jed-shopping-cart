@@ -129,6 +129,14 @@
       "category": "Accessories",
       "price": 120,
       "description": "RGB mechanical keyboard with custom switches."
+    },
+    {
+      "id": 8,
+      "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/82/9478462/1.jpg?1511",
+      "title": "Camera",
+      "category": "Photography",
+      "price": 900,
+      "description": "Professional DSLR camera with 24MP sensor."
     }
   ]
 }
