@@ -101,7 +101,7 @@ main {
   border-radius: 30px;
   margin-top: 14px;
 }
-#cartSection {
+.cart-section {
   position: fixed;
   top: 70px;
   right: 0;
@@ -109,12 +109,20 @@ main {
   width: 400px;
   z-index: 2;
   background-color: rgb(228, 228, 235);
+}
+
+.toggle-cart {
   display: none;
 }
 .close-cart-button {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 55px;
+  z-index: 100;
 }
 /* style the cart section */
 

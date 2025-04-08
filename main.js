@@ -64,15 +64,11 @@ function addToCart(productId) {
 
 function toggleCart() {
   const cartButton = document.getElementById("cartButton");
-  const closeCartButton = document.getElementById("closeCartButton");
   const cartSection = document.getElementById("cartSection");
 
   cartButton.addEventListener("click", () => {
-    cartSection.style.display = "block";
+    cartSection.classList.toggle("toggle-cart");
     fetchCartItems(cartSection);
-  });
-  closeCartButton.addEventListener("click", () => {
-    cartSection.style.display = "none";
   });
 }
 
@@ -86,6 +82,7 @@ function fetchCartItems(cartSection) {
         const cartDiv = document.createElement("div");
         cartDiv.className = "cart-item";
         cartDiv.innerHTML = `
+        
          <div>
             <img
               src="${item.image}"
@@ -97,6 +94,7 @@ function fetchCartItems(cartSection) {
 
           <div class="cart-item-category">${item.category}</div>
           <div class="cart-item-price">$${item.price}</div>
+          
         `;
         cartSection.appendChild(cartDiv);
       });
