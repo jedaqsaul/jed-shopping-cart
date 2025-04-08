@@ -2,6 +2,7 @@ const BASE_URL = "http://localhost:3000";
 
 document.addEventListener("DOMContentLoaded", () => {
   fetchProducts();
+  toggleCart();
 });
 
 function fetchProducts() {
@@ -59,4 +60,18 @@ function addToCart(productId) {
     .catch((err) => {
       console.error("Error adding to the cart", err);
     });
+}
+
+function toggleCart() {
+  const cartButton = document.getElementById("cartButton");
+  const closeCartButton = document.getElementById("closeCartButton");
+  const cartSection = document.getElementById("cartSection");
+
+  cartButton.addEventListener("click", () => {
+    cartSection.style.display = "block";
+    fetchCartItems();
+  });
+  closeCartButton.addEventListener("click", () => {
+    cartSection.style.display = "none";
+  });
 }

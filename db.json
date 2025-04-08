@@ -81,30 +81,5 @@
       "description": "RGB mechanical keyboard with custom switches."
     }
   ],
-  "cart": [
-    {
-      "id": 1,
-      "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/24/0733271/1.jpg?8045",
-      "title": "Laptop",
-      "category": "Electronics",
-      "price": 1200,
-      "description": "High-performance laptop with 16GB RAM."
-    },
-    {
-      "id": 2,
-      "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/65/1475022/1.jpg?4901",
-      "title": "Smartphone",
-      "category": "Electronics",
-      "price": 800,
-      "description": "Latest smartphone with OLED display."
-    },
-    {
-      "id": 6,
-      "title": "Tablet",
-      "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/63/6526213/1.jpg?3354",
-      "category": "Electronics",
-      "price": 600,
-      "description": "10-inch tablet with stylus support."
-    }
-  ]
+  "cart": []
 }
