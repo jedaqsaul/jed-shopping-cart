@@ -105,6 +105,30 @@
       "category": "Accessories",
       "price": 150,
       "description": "Noise-canceling over-ear headphones."
+    },
+    {
+      "id": 5,
+      "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/62/590737/1.jpg?0667",
+      "title": "Smartwatch",
+      "category": "Wearable",
+      "price": 300,
+      "description": "Feature-packed smartwatch with health tracking."
+    },
+    {
+      "id": 7,
+      "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/23/3267351/1.jpg?0416",
+      "title": "Bluetooth Speaker",
+      "category": "Audio",
+      "price": 100,
+      "description": "Portable Bluetooth speaker with deep bass."
+    },
+    {
+      "id": 10,
+      "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/05/0374662/1.jpg?9473",
+      "title": "Mechanical Keyboard",
+      "category": "Accessories",
+      "price": 120,
+      "description": "RGB mechanical keyboard with custom switches."
     }
   ]
 }

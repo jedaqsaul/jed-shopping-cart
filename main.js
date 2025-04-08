@@ -54,7 +54,7 @@ function addToCart(productId) {
       })
         .then((res) => res.json())
         .then((cartItem) => {
-          alert(`${cartItem.name} added to the cart!`);
+          alert(`${cartItem.title} added to the cart!`);
         });
     })
     .catch((err) => {
@@ -83,7 +83,7 @@ function fetchCartItems(cartSection) {
         cartDiv.className = "cart-item";
         cartDiv.innerHTML = `
         
-         <div>
+         <div class="name-price">
             <img
               src="${item.image}"
               alt=""
