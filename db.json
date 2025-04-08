@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "image": "https://picsum.photos/seed/picsum/200",
+      "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/24/0733271/1.jpg?8045",
       "title": "Laptop",
       "category": "Electronics",
       "price": 1200,
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "image": "https://picsum.photos/seed/picsum/200",
+      "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/65/1475022/1.jpg?4901",
       "title": "Smartphone",
       "category": "Electronics",
       "price": 800,
@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "image": "https://picsum.photos/seed/picsum/200",
+      "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/79/3874912/1.jpg?5263",
       "title": "Headphones",
       "category": "Accessories",
       "price": 150,
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "image": "https://picsum.photos/seed/picsum/200",
+      "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/74/1226192/1.jpg?3106",
       "title": "Gaming Console",
       "category": "Gaming",
       "price": 500,
@@ -34,7 +34,7 @@
     },
     {
       "id": 5,
-      "image": "https://picsum.photos/seed/picsum/200",
+      "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/62/590737/1.jpg?0667",
       "title": "Smartwatch",
       "category": "Wearable",
       "price": 300,
@@ -43,14 +43,14 @@
     {
       "id": 6,
       "title": "Tablet",
-      "image": "https://picsum.photos/seed/picsum/200",
+      "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/63/6526213/1.jpg?3354",
       "category": "Electronics",
       "price": 600,
       "description": "10-inch tablet with stylus support."
     },
     {
       "id": 7,
-      "image": "https://picsum.photos/seed/picsum/200",
+      "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/23/3267351/1.jpg?0416",
       "title": "Bluetooth Speaker",
       "category": "Audio",
       "price": 100,
@@ -58,7 +58,7 @@
     },
     {
       "id": 8,
-      "image": "https://picsum.photos/seed/picsum/200",
+      "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/82/9478462/1.jpg?1511",
       "title": "Camera",
       "category": "Photography",
       "price": 900,
@@ -66,7 +66,7 @@
     },
     {
       "id": 9,
-      "image": "https://picsum.photos/seed/picsum/200",
+      "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/55/0370292/1.jpg?1872",
       "title": "Wireless Mouse",
       "category": "Accessories",
       "price": 50,
@@ -80,5 +80,6 @@
       "price": 120,
       "description": "RGB mechanical keyboard with custom switches."
     }
-  ]
+  ],
+  "cart": []
 }

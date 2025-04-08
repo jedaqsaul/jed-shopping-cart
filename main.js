@@ -15,7 +15,8 @@ function fetchProducts() {
         productDiv.innerHTML = `
        
           <div class="image-container">
-            <img src=".${product.image}" alt="" class="product-image" />
+            <img src="
+            ${product.image}" alt="" class="product-image" />
           </div>
           <div class="product-title">${product.title}</div>
           <div class="product-price">$${product.price}</div>
